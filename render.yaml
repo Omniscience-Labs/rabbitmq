@@ -11,6 +11,8 @@ services:
         value: rabbitmq
       - key: RABBITMQ_DEFAULT_PASS
         value: rabbitmq
+      - key: RABBITMQ_DEFAULT_VHOST
+        value: rabbitmq
     disk:
       name: rabbit
       mountPath: /var/lib/rabbitmq
