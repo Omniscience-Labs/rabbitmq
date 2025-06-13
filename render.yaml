@@ -10,7 +10,7 @@ services:
       - key: RABBITMQ_DEFAULT_USER
         value: rabbitmq
       - key: RABBITMQ_DEFAULT_PASS
-        Value: rabbitmq
+        value: rabbitmq
     disk:
       name: rabbit
       mountPath: /var/lib/rabbitmq
